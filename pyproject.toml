@@ -25,6 +25,10 @@ dev = [
     "ty>=0.0.1a7",
 ]
 
+[tool.ruff]
+select = ["F", "E", "W", "B", "I", "UP", "C90", "N", "YTT", "S", "BLE", "A", "COM", "T20", "ISC"]
+line-length = 88
+indent-width = 4
 
 #pytest
 #pytest-asyncio
