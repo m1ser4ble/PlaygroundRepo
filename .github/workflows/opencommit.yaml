@@ -39,6 +39,5 @@ jobs:
           OCO_OPENAI_BASE_PATH: ''
           OCO_DESCRIPTION: false
           OCO_EMOJI: false
-          OCO_MODEL: gemini-2.5-flash-preview-05-20
           OCO_LANGUAGE: en
           OCO_PROMPT_MODULE: conventional-commit
