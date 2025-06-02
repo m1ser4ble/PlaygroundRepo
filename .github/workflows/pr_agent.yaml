@@ -19,3 +19,5 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.OCO_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           github_action_config.model: "gemini/gemini-2.5-flash-preview-05-20"
+          PR_DESCRIPTION.GENERATE_AI_TITLE: "true"
+          PR_DESCRIPTION.PUBLISH_LABELS: "true"
