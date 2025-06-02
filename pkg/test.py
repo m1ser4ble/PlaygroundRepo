@@ -1,3 +1,3 @@
-import math
+"""dummy test."""
 
-print(1+2)
+x = 1 + 2
